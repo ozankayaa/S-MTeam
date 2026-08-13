@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 70" role="img" aria-label="S&M Team Gayrimenkul Danışmanlık">
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D6670"/>
+      <stop offset="1" stop-color="#0a4d54"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="6" width="58" height="58" rx="8" fill="url(#logoGrad)"/>
+  <path d="M14 52 L29 37 L44 52 L44 58 L14 58 Z" fill="none" stroke="#D6C2A8" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="25" y="48" width="8" height="10" fill="#D6C2A8" rx="1"/>
+  <circle cx="29" cy="30" r="5" fill="none" stroke="#D6C2A8" stroke-width="2"/>
+  <text x="68" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800" fill="#0F172A" letter-spacing="-0.5">S&amp;M</text>
+  <text x="128" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="300" fill="#94A3B8" letter-spacing="-0.5">Team</text>
+  <text x="68" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="600" fill="#0D6670" letter-spacing="2.8">GAYRİMENKUL DANIŞMANLIK</text>
+</svg>
