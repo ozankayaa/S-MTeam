@@ -52,7 +52,22 @@
     <header class="site-header" id="top">
       <div class="container header-inner">
         <a class="logo-link" href="#top" aria-label="S&M Team ana sayfa">
-          <img class="site-logo" src="images/smteam-logo.svg" alt="S&M Team Gayrimenkul Danışmanlık logosu" />
+          <!-- Inline SVG logo to avoid loading issues -->
+          <svg class="site-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 70" role="img" aria-label="S&M Team Gayrimenkul Danışmanlık">
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#0D6670"/>
+                <stop offset="1" stop-color="#0a4d54"/>
+              </linearGradient>
+            </defs>
+            <rect x="0" y="6" width="58" height="58" rx="8" fill="url(#logoGrad)"/>
+            <path d="M14 52 L29 37 L44 52 L44 58 L14 58 Z" fill="none" stroke="#D6C2A8" stroke-width="2" stroke-linejoin="round"/>
+            <rect x="25" y="48" width="8" height="10" fill="#D6C2A8" rx="1"/>
+            <circle cx="29" cy="30" r="5" fill="none" stroke="#D6C2A8" stroke-width="2"/>
+            <text x="68" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="800" fill="#0F172A" letter-spacing="-0.5">S&amp;M</text>
+            <text x="128" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="300" fill="#94A3B8" letter-spacing="-0.5">Team</text>
+            <text x="68" y="54" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="600" fill="#0D6670" letter-spacing="2.8">GAYRİMENKUL DANIŞMANLIK</text>
+          </svg>
         </a>
         <button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
@@ -134,13 +149,13 @@
       </div>
       </section>
       <section class="process section section-tint"><div class="container"><div class="section-heading"><div><p class="eyebrow">NASIL ÇALIŞIYORUZ?</p><h2>Hayalinizden anahtara<br /><em>uzanan yolculuk</em></h2></div><p>Kesintisiz ve anlaşılır süreçlerle müşterilerimizi hedeflerine ulaştırıyoruz.</p></div>
-      <div class="timeline">
-        <div class="timeline-item"><span>01</span><h3>İhtiyaç Analizi</h3><p>Önceliklerinizi belirliyoruz.</p></div>
-        <div class="timeline-item"><span>02</span><h3>Bölge Araştırması</h3><p>Doğru portföyleri seçiyoruz.</p></div>
-        <div class="timeline-item"><span>03</span><h3>Sunum & Pazarlama</h3><p>Mülkü en iyi şekilde sunuyoruz.</p></div>
-        <div class="timeline-item"><span>04</span><h3>Tapu Süreci</h3><p>Resmi işlemleri yönetiyoruz.</p></div>
-        <div class="timeline-item"><span>05</span><h3>Sonrası Destek</h3><p>İşlem sonrasında da destek sağlıyoruz.</p></div>
-      </div>
+        <div class="timeline">
+          <div class="timeline-item"><span>01</span><h3>İhtiyaç Analizi</h3><p>Önceliklerinizi belirliyoruz.</p></div>
+          <div class="timeline-item"><span>02</span><h3>Bölge Araştırması</h3><p>Doğru portföyleri seçiyoruz.</p></div>
+          <div class="timeline-item"><span>03</span><h3>Sunum & Pazarlama</h3><p>Mülkü en iyi şekilde sunuyoruz.</p></div>
+          <div class="timeline-item"><span>04</span><h3>Tapu Süreci</h3><p>Resmi işlemleri yönetiyoruz.</p></div>
+          <div class="timeline-item"><span>05</span><h3>Sonrası Destek</h3><p>İşlem sonrasında da destek sağlıyoruz.</p></div>
+        </div>
       </section>
       <section class="faq section section-tint" id="sss"><div class="container faq-grid"><div><p class="eyebrow">MERAK ETTİKLERİNİZ</p><h2>Sık sorulan<br /><em>sorular</em></h2><p>En çok merak edilen soruların yanıtları.</p></div>
       <div class="accordion">
@@ -150,30 +165,4 @@
       </div>
       </section>
       <section class="contact section" id="iletisim"><div class="container contact-grid"><div><p class="eyebrow">İLETİŞİM</p><h2>Hayalinizdeki mülk<br /><em>bir telefon kadar yakın.</em></h2><p>Hemen arayın veya WhatsApp üzerinden mesaj gönderin.</p>
-      <div class="contact-details"><h3>İletişim Bilgileri</h3><p class="footer-phone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 5.18 2 2 0 0 1 4.11 3h3a2 2 0 0 1 2 1.01"/></svg> <a href="tel:+905356344705">0535 634 47 05</a></p><p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Karşıyaka / İzmir</p><p><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/></svg> S&M Team Gayrimenkul Danışmanlık</p></div>
-      </div>
-      <div class="map-wrap"><div class="location-card"><div class="location-pin">📍</div><h3>Ofis</h3><p>Karşıyaka, İzmir</p><p><a href="tel:+905356344705" class="button button-primary">Arayın</a></p></div></div>
-      </section>
-    </main>
-    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Görsel önizlemesi" aria-hidden="true"><button class="lightbox-close" type="button" aria-label="Önizlemeyi kapat">×</button><img src="" alt="Önizleme görseli"/></div>
-    <footer><div class="container footer-inner"><a class="logo-link" href="#top"><img class="site-logo" src="images/smteam-logo.svg" alt="S&M Team Gayrimenkul Danışmanlık logosu" /></a><p>© 2026 S&M Team Gayrimenkul Danışmanlık <br /><span>Hazır web: ozankayaa</span></p></div></footer>
-    <script>
-      (function(){
-        var menuButton=document.querySelector('.menu-toggle');
-        var nav=document.querySelector('.nav');
-        var menuIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
-        var closeIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>';
-        menuButton.addEventListener('click',function(){var open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.innerHTML=open?closeIcon:menuIcon;});
-        document.querySelectorAll('.nav a').forEach(function(link){link.addEventListener('click',function(){nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.innerHTML=menuIcon;});});
-        var lightbox=document.querySelector('.lightbox');var lightboxImage=lightbox.querySelector('img');
-        function closeLightbox(){lightbox.classList.remove('open');lightbox.setAttribute('aria-hidden','true');lightboxImage.removeAttribute('src');document.body.classList.remove('no-scroll');}
-        document.querySelectorAll('.poster-button').forEach(function(button){button.addEventListener('click',function(){lightboxImage.src=button.dataset.image;lightbox.classList.add('open');lightbox.setAttribute('aria-hidden','false');document.body.classList.add('no-scroll');});});
-        lightbox.querySelector('.lightbox-close').addEventListener('click',closeLightbox);
-        lightbox.addEventListener('click',function(event){if(event.target===lightbox)closeLightbox();});
-        document.addEventListener('keydown',function(event){if(event.key==='Escape')closeLightbox();});
-        var header=document.querySelector('.site-header');
-        window.addEventListener('scroll',function(){if(window.scrollY>60)header.classList.add('scrolled');else header.classList.remove('scrolled');});
-      })();
-    </script>
-  </body>
-</html>
+      <div class="contact-details"><h3>İletişim Bilgileri</h3><p class="footer-phone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07[...]
